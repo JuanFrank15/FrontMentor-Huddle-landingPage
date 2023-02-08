@@ -1,0 +1,25 @@
+{
+  "name": "hrontmentor-huddle-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles.scss:src/styles/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanFrank15"
+  },
+  "keywords": [
+    "landingPage",
+    "JavaScripts",
+    "HTML",
+    "CSS;",
+    "Sass"
+  ],
+  "author": "Juan F. Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}
