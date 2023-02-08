@@ -54,6 +54,8 @@ svg {
   border-radius: 12px;
   background: #ffffff;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.0954201);
+  text-decoration: none;
+  color: #00252e;
 }
 
 .header-section {
@@ -90,6 +92,10 @@ svg {
   box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
   border-radius: 20px;
   border: none;
+}
+.header-section-container button:hover {
+  outline: none;
+  background: #FF9ADB;
 }
 .header-section img {
   max-width: 100%;
@@ -202,12 +208,22 @@ svg {
   box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
   border-radius: 20px;
   border: none;
+  cursor: pointer;
+}
+.main-section-container4 button:hover {
+  outline: none;
+  background: #FF9ADB;
 }
 
 /***************** Footer *****************/
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  outline: none;
+  color: #FF9ADB;
 }
 
 .footer-main {
@@ -237,8 +253,8 @@ a {
   align-items: center;
   gap: 1.5rem;
 }
-.footer-container-socialmedia-icon {
-  gap: 0.598rem;
+.footer-container-socialmedia-icon img {
+  gap: 5rem;
 }
 .footer-container-socialmedia-cr {
   font-size: 0.696rem;
