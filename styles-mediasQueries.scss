@@ -1,53 +1,68 @@
 
+
+/************************* Media Query 580px *************************/
+
+//Media query from 580px forward.
 @media (min-width: 580px) {
+  /************ Header **********/
+  // Nav. container, brand logo and button
+  .header-nav {
+    &-btn {
+      max-width: 125px;
+    }
+  }
 
-    .header-nav {
-        &-btn {
-          max-width: 125px;
-        }
-      }
+  /************ Main **********/
+  // Child containers, styling and positioning
+  .main-section-container1,
+  .main-section-container2,
+  .main-section-container3 {
+    flex-direction: row-reverse;
+    gap: 2rem;
+    max-width: 630px;
+    max-height: 441px;
+    &-info {
+      margin-top: 0;
+      margin-bottom: 0;
 
-   
-    .main-section-container1,
-    .main-section-container2,
-    .main-section-container3 {
-      flex-direction: row-reverse;
-      gap: 2rem;
-      max-width: 630px;
-      max-height: 441px;
-      &-info {
-          margin-top: 0;
-          margin-bottom: 0;
-          
-        color: #00252e;
-  
-        h2 {
-            text-align: start;
-            font-weight: 600;
-            
-          }
-          p {
-            text-align: start;
-            font-weight: 400;
-          }
+      color: #00252e;
+
+      h2 {
+        text-align: start;
+        font-weight: 600;
       }
-  
-      img {
-        width: 12rem;
+      p {
+        text-align: start;
+        font-weight: 400;
       }
     }
-    .main-section-container2 {
-      flex-direction: row;
-    }
-    .main-section-container4{
-        max-width: 630px;
-    }
-    
 
-    
+    img {
+      width: 12rem;
+    }
+  }
+
+
+  // Secondary container of main
+  .main-section-container2 {
+    flex-direction: row;
+  }
+
+
+  // Container call to action
+  .main-section-container4 {
+    max-width: 630px;
+  }
 }
+
+
+
+/************************* Media Query 850px *************************/
+
+//Media query from 850px forward.
 @media (min-width: 850px) {
-  //Header
+  /************ Header **********/
+  // Nav. container, brand logo and button
   .header-nav {
     &-btn {
       max-width: 12.5rem;
@@ -56,11 +71,12 @@
       border-radius: 24px;
     }
   }
+  // Header container that represents what you offer as a company
   .header-section {
     flex-direction: row;
     gap: 3.375rem;
-    img{
-        max-width: 50%;
+    img {
+      max-width: 50%;
     }
 
     &-container {
@@ -90,15 +106,14 @@
       }
     }
   }
-  //MAIN
-  
+
+  /************ Main **********/
+// Child containers, styling and positioning
   .main-section-container1,
   .main-section-container2,
   .main-section-container3 {
     max-width: 1200px;
     &-info {
-     
-
       h2 {
         text-align: start;
         font-weight: 600;
@@ -118,14 +133,16 @@
       width: 440px;
     }
   }
+  // Secondary container of main
   .main-section-container2 {
     flex-direction: row;
   }
+  // Third container of main
   .main-section-container3 {
     margin-bottom: 344px;
   }
 
-  //Container Absolute
+ // Container call to action
   .main-section-container4 {
     max-width: 800px;
 
@@ -149,10 +166,10 @@
       }
     }
   }
-  //Footer
-  .footer-main {
-  }
+  
 
+  /************ Footer **********/
+// Container that has all the information in the footer as children
   .hero {
     flex-direction: row;
     justify-content: space-between;
@@ -160,6 +177,7 @@
     margin: 144px 78px 64px 120px;
   }
 
+  //  Icon Social Media Section
   .footer-container-socialmedia {
     gap: 95px;
     align-items: start;
@@ -178,6 +196,7 @@
     }
   }
 
+  //  Link Menu Section
   .footer-container-link {
     margin-top: 0;
     margin-bottom: 0;
@@ -186,6 +205,7 @@
     line-height: 27px;
   }
 
+  // Info Section
   .footer-container-info {
     margin-top: 0;
     margin-bottom: 0;
@@ -209,3 +229,5 @@
     }
   }
 }
+
+/* End of the style sheet. */
