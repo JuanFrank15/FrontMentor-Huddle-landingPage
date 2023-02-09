@@ -1,0 +1,188 @@
+@media (min-width: 580px) {
+  .header-nav-btn {
+    max-width: 125px;
+  }
+  .main-section-container1,
+  .main-section-container2,
+  .main-section-container3 {
+    flex-direction: row-reverse;
+    gap: 2rem;
+    max-width: 630px;
+    max-height: 441px;
+  }
+  .main-section-container1-info,
+  .main-section-container2-info,
+  .main-section-container3-info {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #00252e;
+  }
+  .main-section-container1-info h2,
+  .main-section-container2-info h2,
+  .main-section-container3-info h2 {
+    text-align: start;
+    font-weight: 600;
+  }
+  .main-section-container1-info p,
+  .main-section-container2-info p,
+  .main-section-container3-info p {
+    text-align: start;
+    font-weight: 400;
+  }
+  .main-section-container1 img,
+  .main-section-container2 img,
+  .main-section-container3 img {
+    width: 12rem;
+  }
+  .main-section-container2 {
+    flex-direction: row;
+  }
+  .main-section-container4 {
+    max-width: 630px;
+  }
+}
+@media (min-width: 850px) {
+  .header-nav-btn {
+    max-width: 12.5rem;
+    height: 3.0125rem;
+    font-size: 0.875rem;
+    border-radius: 24px;
+  }
+  .header-section {
+    flex-direction: row;
+    gap: 3.375rem;
+  }
+  .header-section img {
+    max-width: 50%;
+  }
+  .header-section-container {
+    align-items: start;
+  }
+  .header-section-container h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: start;
+    color: #00252e;
+  }
+  .header-section-container p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: start;
+    color: #00252e;
+  }
+  .header-section-container button {
+    font-weight: 700;
+    font-size: 14px;
+    width: 280px;
+    height: 56px;
+    border-radius: 28px;
+  }
+  .main-section-container1,
+  .main-section-container2,
+  .main-section-container3 {
+    max-width: 1200px;
+  }
+  .main-section-container1-info h2,
+  .main-section-container2-info h2,
+  .main-section-container3-info h2 {
+    text-align: start;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    width: 16rem;
+  }
+  .main-section-container1-info p,
+  .main-section-container2-info p,
+  .main-section-container3-info p {
+    text-align: start;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .main-section-container1 img,
+  .main-section-container2 img,
+  .main-section-container3 img {
+    width: 440px;
+  }
+  .main-section-container2 {
+    flex-direction: row;
+  }
+  .main-section-container3 {
+    margin-bottom: 344px;
+  }
+  .main-section-container4 {
+    max-width: 800px;
+  }
+  .main-section-container4-info {
+    gap: 32px;
+    margin-top: 56px;
+    margin-bottom: 52px;
+  }
+  .main-section-container4-info h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 60px;
+    color: #00252e;
+  }
+  .main-section-container4-info button {
+    width: 400px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 144px 78px 64px 120px;
+  }
+  .footer-container-socialmedia {
+    gap: 95px;
+    align-items: start;
+    justify-content: end;
+  }
+  .footer-container-socialmedia-icon {
+    gap: 11.5px;
+  }
+  .footer-container-socialmedia-cr {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer-container-link {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .footer-container-info {
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 1.5rem;
+  }
+  .footer-container-info img {
+    width: 152px;
+    height: 24px;
+  }
+  .footer-container-info .location-container,
+  .footer-container-info .phone-container,
+  .footer-container-info .email-container {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer-container-info .location-container img,
+  .footer-container-info .phone-container img,
+  .footer-container-info .email-container img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/*# sourceMappingURL=styles-mediasQueries.css.map */

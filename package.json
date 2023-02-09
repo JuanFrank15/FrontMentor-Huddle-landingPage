@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./styles.scss:src/styles/styles.css"
+    "sass": "sass --watch ./styles.scss:src/styles/styles.css",
+    "media": "sass --watch ./styles-mediasQueries.scss:src/styles/styles-mediasQueries.css"
   },
   "repository": {
     "type": "git",
@@ -23,3 +24,4 @@
     "sass": "^1.58.0"
   }
 }
+
