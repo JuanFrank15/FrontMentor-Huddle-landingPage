@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](.src\design\desktop-preview.jpg)
+![](./src/design/desktop-preview.jpg)
 
 ### Links
 
@@ -50,6 +50,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@JuanFrank15](https://www.frontendmentor.io/profile/JuanFrank15)
 - Twitter - [@JuanFrank_Dev](https://twitter.com/JuanFrank_Dev)
