@@ -1,7 +1,7 @@
 {
   "name": "FrontMentor-huddle-landingpage",
   "version": "1.0.0",
-  "description": "",
+  "description": "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go.",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./styles.scss:src/styles/styles.css",

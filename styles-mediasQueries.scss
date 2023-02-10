@@ -1,5 +1,3 @@
-
-
 /************************* Media Query 580px *************************/
 
 //Media query from 580px forward.
@@ -7,6 +5,7 @@
   /************ Header **********/
   // Nav. container, brand logo and button
   .header-nav {
+
     &-btn {
       max-width: 125px;
     }
@@ -21,16 +20,17 @@
     gap: 2rem;
     max-width: 630px;
     max-height: 441px;
+
     &-info {
       margin-top: 0;
       margin-bottom: 0;
-
       color: #00252e;
 
       h2 {
         text-align: start;
         font-weight: 600;
       }
+
       p {
         text-align: start;
         font-weight: 400;
@@ -42,20 +42,16 @@
     }
   }
 
-
   // Secondary container of main
   .main-section-container2 {
     flex-direction: row;
   }
-
 
   // Container call to action
   .main-section-container4 {
     max-width: 630px;
   }
 }
-
-
 
 /************************* Media Query 850px *************************/
 
@@ -64,6 +60,7 @@
   /************ Header **********/
   // Nav. container, brand logo and button
   .header-nav {
+
     &-btn {
       max-width: 12.5rem;
       height: 3.0125rem;
@@ -71,10 +68,12 @@
       border-radius: 24px;
     }
   }
+
   // Header container that represents what you offer as a company
   .header-section {
     flex-direction: row;
     gap: 3.375rem;
+
     img {
       max-width: 50%;
     }
@@ -97,6 +96,7 @@
         text-align: start;
         color: #00252e;
       }
+
       button {
         font-weight: 700;
         font-size: 14px;
@@ -108,12 +108,13 @@
   }
 
   /************ Main **********/
-// Child containers, styling and positioning
+  // Child containers, styling and positioning
   .main-section-container1,
   .main-section-container2,
   .main-section-container3 {
     max-width: 1200px;
     &-info {
+
       h2 {
         text-align: start;
         font-weight: 600;
@@ -133,16 +134,18 @@
       width: 440px;
     }
   }
+
   // Secondary container of main
   .main-section-container2 {
     flex-direction: row;
   }
+
   // Third container of main
   .main-section-container3 {
     margin-bottom: 344px;
   }
 
- // Container call to action
+  // Container call to action
   .main-section-container4 {
     max-width: 800px;
 
@@ -157,6 +160,7 @@
         line-height: 60px;
         color: #00252e;
       }
+
       button {
         width: 400px;
         height: 80px;
@@ -166,10 +170,9 @@
       }
     }
   }
-  
 
   /************ Footer **********/
-// Container that has all the information in the footer as children
+  // Container that has all the information in the footer as children
   .hero {
     flex-direction: row;
     justify-content: space-between;
@@ -222,6 +225,7 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 24px;
+      
       img {
         width: 24px;
         height: 24px;
